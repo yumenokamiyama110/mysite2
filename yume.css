@@ -1,0 +1,67 @@
+body {
+  font-family: 'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  background-color: #ffb6b9;
+}
+
+.header {
+  height: 80px; 
+  width: 100%;
+  background-color:#bbded6;
+  color: #594347;
+  position: fixed;  /*ヘッダーを固定する*/
+}
+
+.header-logo {
+  margin: auto;
+  max-width: 800px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  float: left;
+  font-size: 40px;
+}
+
+
+li {
+  list-style: none;
+  margin: auto;
+  max-width: 800px;
+  padding-left: 80px;
+  float: left;
+  font-size: 20px;
+}
+
+.top-wrapper {
+  background-image:url(/Users/yumeno/Desktop/codebase/my_site/liana-mikah-qNhe2QXzLuo-unsplash.jpg) ;
+  background-size: contain;
+  height: 1000px;
+}
+
+.about {
+  color: #594347;
+  text-align: center;}
+
+.about a {
+  background-image: url("IMG_0246.jpeg");  /* 表示する画像 */
+  width:  180px;       /* ※縦横を同値に */
+  height: 180px;       /* ※縦横を同値に */
+  border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+  background-position: left top;  /* 横長画像の左上を基準に表示 */
+  display: inline-block;          /* 複数の画像を横に並べたい場合 */
+  background-size:cover; /*写真が拡大・縮小されて領域内に全体が収まる*/
+ position: center center;
+ padding-right: 40px; 
+}
+.about h1 {
+  font-size: 70px;
+}
+.about h2 {
+  font-size: 40px;
+}
+
+.about p {
+  padding-top: 20px;
+  font-size: 20px;
+}
+.about span {
+  color: palevioletred;
+}
