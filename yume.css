@@ -1,6 +1,7 @@
 body {
   font-family: 'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
   background-color: #ffb6b9;
+  color: #594347;
 }
 
 .header {
@@ -9,9 +10,12 @@ body {
   background-color:#bbded6;
   color: #594347;
   position: fixed;  /*ヘッダーを固定する*/
+  top: 0;
+  right: 0;
+  left: 0;
 }
 
-.header-logo {
+.header-logo h1 {
   margin: auto;
   max-width: 800px;
   padding-bottom: 40px;
@@ -21,7 +25,7 @@ body {
 }
 
 
-li {
+.header-logo li {
   list-style: none;
   margin: auto;
   max-width: 800px;
@@ -33,12 +37,18 @@ li {
 .top-wrapper {
   background-image:url(/Users/yumeno/Desktop/codebase/my_site/liana-mikah-qNhe2QXzLuo-unsplash.jpg) ;
   background-size: contain;
-  height: 1000px;
+  height: 800px;
+  width: 100%;
+  padding-top: 80px;
 }
 
 .about {
   color: #594347;
-  text-align: center;}
+  text-align: center;
+  height: 800px;
+  padding-top: 80px;
+  
+}
 
 .about a {
   background-image: url("IMG_0246.jpeg");  /* 表示する画像 */
@@ -64,4 +74,37 @@ li {
 }
 .about span {
   color: palevioletred;
+}
+.work {
+  color: #594347;
+  text-align: center;
+  font-size: 20px
+  height: 800px;
+  padding-top: 80px;
+}
+.work img {
+ width: 400px;  /* 横幅を200pxに */
+ padding-top: 20px;
+ padding-bottom: 40px;
+}
+.work span {
+  color: red;
+}
+.hobby {
+  color: #594347;
+  text-align: center;
+  height: 800px;
+  padding-top: 80px;
+
+}
+
+.owarai {
+  width: 200px;
+}
+.yoga{
+  width: 200px
+}
+
+.travel {
+  width: 200px
 }
