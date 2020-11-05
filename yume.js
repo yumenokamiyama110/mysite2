@@ -19,11 +19,11 @@ $(function(){
 $(function(){
  $('#sec4').hover(function() {
      $(this).find('p.text-contents').addClass('text-active');  
-     console.log('hovered')
+     console.log('hovered');
    },
    function() {
      $(this).find('p.text-contents').removeClass('text-active');  
-     console.log('detached')
+     console.log('detached');
    });
 });
 

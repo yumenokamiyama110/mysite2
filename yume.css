@@ -55,7 +55,7 @@ body {
 }
 
 .about a {
-  background-image: url("IMG_0246.jpeg");  /* 表示する画像 */
+  background-image: url("./img/IMG_0246.jpeg");  /* 表示する画像 */
   width:  180px;       /* ※縦横を同値に */
   height: 180px;       /* ※縦横を同値に */
   border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
