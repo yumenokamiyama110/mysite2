@@ -1,4 +1,3 @@
-<!-- スムーズスクロール部分の記述 -->
 $(function(){
    // #で始まるアンカーをクリックした場合に処理
    $('a[href^=#]').click(function() {
@@ -15,3 +14,16 @@ $(function(){
       return false;
    });
 });
+
+
+
+$(function(){
+ $('#sec4').hover(function() {
+     $(this).find('p.text-contents').addClass('text-active');  
+   },
+   function() {
+     $(this).find('p.text-contents').removeClass('text-active');  
+   });
+});
+
+

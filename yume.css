@@ -15,6 +15,7 @@ body {
   left: 0;
 }
 
+
 .header-logo h1 {
   margin: auto;
   max-width: 800px;
@@ -32,6 +33,9 @@ body {
   padding-left: 80px;
   float: left;
   font-size: 20px;
+}
+.header-logo a {
+  color: #594347;
 }
 
 .top-wrapper {
@@ -82,6 +86,7 @@ body {
   height: 800px;
   padding-top: 80px;
 }
+
 .work img {
  width: 400px;  /* 横幅を200pxに */
  padding-top: 20px;
@@ -90,21 +95,40 @@ body {
 .work span {
   color: red;
 }
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+}
+
 .hobby {
   color: #594347;
   text-align: center;
-  height: 800px;
   padding-top: 80px;
-
+  height: 800px; /*各ページにつける意味あるか確認*/
 }
 
-.owarai {
-  width: 200px;
+.hobby-icon img {
+  padding-top: 50px;
+  height: 80%;
+  width: 80%;
 }
-.yoga{
-  width: 200px
+.hobby-icon p {
+    width: 80%;
+    display: inline-block;
+    margin: 20px;
+    font-size: 20px;
+    position: center;
 }
 
-.travel {
-  width: 200px
+p.text-contents {
+  margin: 3% auto;
+  display: none;
+  font-size: 20px;
+  color: #594347;
+}
+
+p.text-active {
+  display: block;
 }
