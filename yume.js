@@ -16,7 +16,6 @@ $(function(){
 });
 
 
-
 $(function(){
  $('#sec4').hover(function() {
      $(this).find('p.text-contents').addClass('text-active');  
